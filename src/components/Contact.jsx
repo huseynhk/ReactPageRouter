@@ -1,8 +1,39 @@
+import BannerImage from '../assets/headphone.jpg';
+import './Contact.css';
 import React from 'react'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="contact">
+    <div
+      className="leftSide"
+      style={{ backgroundImage: `url(${BannerImage})` }}
+    ></div>
+    <div className="rightSide">
+      <h1>Contact Us</h1>
+      <form>
+        <label>FullNmae</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Your FullName..."
+        />
+        <label>Email</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter Your Email..."
+
+        />
+        <label>Message</label>
+        <textarea
+          rows="6"
+          name="message"
+          placeholder="Enter Your Message..."
+        ></textarea>
+      </form>
+    </div>
+  </div>
   )
 }
 

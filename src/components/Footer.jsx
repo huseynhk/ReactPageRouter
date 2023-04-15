@@ -14,7 +14,7 @@ const Footer = () => {
         <BsInstagram/>
         <BsTwitter/>
         <ImGoogle3/>
-        <ImYoutube/>
+        <ImYoutube/>  
       </div>
 
       <p>Address : Rusel Plaza Khatai</p>
